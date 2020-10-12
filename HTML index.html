@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <title>CarEnvision</title>
+  <link rel="stylesheet" href="https://lh3.googleusercontent.com/6kf1wWrgK8NJhY_Iydx6wuivk5-BpPNKD1BPXeKJRSkMLz9IoZ8yBuRRSy_RTYPPTrLW=s128">
+  <link href="https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body style= "background-image: url(https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg);
+  height: 100%; background-size: cover; background-repeat: no-repeat; ">
+	<header>
+    <div class="hero-banner-container">
+    <div style= "color:white" class="title">
+    <center><p style="font-size:50px">CarEnvision</p></center>
+    <hr style= height:3px;width:65%;border-width:2px> 
+    <center><p style="font-size:25px">Created by: TianGe (Terence) Chen & Angel Chang</p></center>
+    <u><center><p><a href = "{{ url_for('about') }}">About</a></p></u>
+    <style>
+    a { color: #FFFFFF; font-size: 20px} /* CSS link color */
+    </style>
+	  </div>
+    <center><img src="https://cdn.pixabay.com/photo/2019/01/14/00/07/car-3931536__340.jpg" width = "528" height = "297">
+		
+	</header>
+
+
+	<div style = "color:white" class="ml-container">
+
+		<center><form action= "{{ url_for('predict')}}" method="POST">
+		<p style="font-size:23px">Enter Your Brand Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<input type ="text" name="brand">
+		<br/>
+    <p style="font-size:23px">Enter Your Model Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<input type ="text" name="model">
+		<br/>
+    <p style="font-size:23px">Enter Your Year Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<input type ="text" name="year">
+		<br/>
+    
+		<input type="submit" class="btn-info" value="predict">
+    </center>
+	
+	  </form>	
+	</div>
+
+</body>
+</html>
