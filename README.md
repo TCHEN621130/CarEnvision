@@ -12,4 +12,4 @@ CarEnvision is a program that predicts you car's future or past values given a s
 /in depth descriptions
 
 ## Example
-![Image of Prediction](preview.PNG) 
+![Image of Prediction](preview.png) 
