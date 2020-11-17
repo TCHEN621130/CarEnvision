@@ -19,3 +19,6 @@ We used three sets of car examples in order to train our Machine Learning algori
 ## URL to webpage
 https://carenvision.wl.r.appspot.com/
 
+## Creators & Mentor
+Creators: TianGe (Terence) Chen & Angel Chang  
+Mentor: Evan Gunnell
