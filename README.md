@@ -11,6 +11,7 @@ CarEnvision is a program that predicts your car's future or past values given a 
 ## About
 CarEnvision is a program that predicts your car's future or past values given a specific year.  
 The information is extracted from Cars.com and placed through Machine Learning algorithms to predict a final value.  
+Predicted value is based off of sentiments from professional car enthusiasts.  
 We used three sets of car examples in order to train our Machine Learning algorithms.
 
 ## Example
